@@ -1,0 +1,88 @@
+@import url(conmon.css);
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.wrap header {
+  width: 100%;
+  height: .45rem;
+  padding: 0 .1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.wrap header div {
+  width: 90%;
+  height: .35rem;
+  background: #EFEFEF;
+  border-radius: .05rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrap header div i {
+  margin: 0 .1rem;
+  color: #B3B3B3;
+}
+
+.wrap header div input {
+  border: none;
+  outline: none;
+  background: #EFEFEF;
+}
+
+.wrap header i {
+  color: #B3B3B3;
+}
+
+.wrap section {
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+}
+
+.wrap section .scroll {
+  width: 100%;
+  overflow: auto;
+}
+
+.wrap footer {
+  width: 100%;
+  height: .5rem;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+
+.wrap footer dl {
+  width: 20%;
+  text-align: center;
+}
+
+.wrap footer dl dt i {
+  color: #666666;
+}
+
+.wrap footer dl dd {
+  color: #666666;
+}
+
+.wrap footer .act dt i {
+  color: #FF5777;
+}
+
+.wrap footer .act dd {
+  color: #FF5777;
+}
